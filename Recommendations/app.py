@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 st.write("Hello, Streamlit!")
 # Load the hospital dataset
-df = pd.read_csv("data/hospitals.csv")
+df = pd.read_csv("hospitals.csv")
 
 # Set the title of the app
 st.title("Hospital Recommendation System")
